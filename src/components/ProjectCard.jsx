@@ -5,7 +5,7 @@ const ProjectCard = ({ title, description,  defaultImg, hoverImg }) => {
   const [currentImage, setCurrentImage] = useState(defaultImg);
 
   return ( 
-<div className="relative flex items-center p-4 shadow-lg cursor-pointer w-full align-center justify-center"
+<div className="relative flex items-center p-4 shadow-lg cursor-pointer w-full align-center justify-center flex-wrap gap-4"
       onMouseEnter={() => setCurrentImage(hoverImg)} 
       onMouseLeave={() => setCurrentImage(defaultImg)}>
           

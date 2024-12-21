@@ -26,10 +26,7 @@ const Technologies = () => {
           <div className="mb-4 sm:mr-4 sm:mb-0 sm:w-20 sm:h-20 bg-[#251C31] rounded-full flex items-center justify-center">
             <img src="src/assets/images/csslogo.png" alt="" className='w-12 h-auto' />
           </div>
-          {/* Group Technologies Image */}
-          <div>
-          <img src="src/assets/images/GroupTechnologie.png" alt="" className='absolute left-0 top-0 w-full h-auto z-10' />
-          </div>
+         
         </div>
       </div>
     </section>

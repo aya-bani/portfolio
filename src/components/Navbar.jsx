@@ -1,13 +1,11 @@
-// Navbar.jsx
 import React from 'react';
-import './Navbar.css'; // Ensure you import your CSS file
+import './Navbar.css'; 
 
 export default function Navbar() {
   return (
-    <nav className="w-screen fixed top-0 bg-[#1A0B2E] p-0 m-0 font-preahvihear z-50">
+    <nav className="w-screen fixed top-0 bg-[#1A0B2E] p-0 m-0 z-50">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          {/* Mobile menu button */}
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <button
               type="button"
@@ -47,12 +45,11 @@ export default function Navbar() {
             </button>
           </div>
           
-          {/* Logo and Links */}
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <img
                 className="h-12 w-auto"
-                src="src/assets/images/logoA.png" // Use correct path
+                src="src/assets/images/logoA.png" 
                 alt="Your Company"
               />
             </div>
@@ -74,7 +71,6 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* User Profile */}
           <div className="absolute inset-y-0 right-0 flex items-center pr-2">
             <div className="relative ml-3">
               <button
@@ -96,7 +92,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile menu */}
       <div className="sm:hidden" id="mobile-menu">
         <div className="space-y-1 px-2 pb-3 pt-2">
           <a href="#about" className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">
