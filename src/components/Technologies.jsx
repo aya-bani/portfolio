@@ -12,12 +12,12 @@ const Technologies = () => {
       <div className='flex flex-col'>
         <div className='relative flex items-center justify-center flex-wrap gap-4'>
           {[
-            { src: "src/assets/images/figma.png", size: "w-6" },
-            { src: "src/assets/images/react.png", size: "w-10" },
-            { src: "src/assets/images/laravel.png", size: "w-18" },
-            { src: "src/assets/images/jslogo.png", size: "w-12" },
-            { src: "src/assets/images/csslogo.png", size: "w-12" },
-            { src: "src/assets/images/springboot.png", size: "w-12" }
+            { src: "/assets/images/figma.png", size: "w-6" },
+            { src: "/assets/images/react.png", size: "w-10" },
+            { src: "/assets/images/laravel.png", size: "w-18" },
+            { src: "/assets/images/jslogo.png", size: "w-12" },
+            { src: "/assets/images/csslogo.png", size: "w-12" },
+            { src: "/assets/images/springboot.png", size: "w-12" }
           ].map((tech, index) => (
             <div 
               key={index} 

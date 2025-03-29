@@ -5,14 +5,14 @@ export default function About() {
     <div className='flex flex-col items-center justify-center h-screen bg-[#11071F] pt-20 m-6 '  > {/* Changed to 'pt-20' to add padding to the top */}
        <div>
         <div className='flex mt-8 '>
-        <img src="src\assets\images\Arrow.png" alt="" className=' ml-10' />
+        <img src="\assets\images\Arrow.png" alt="" className=' ml-10' />
         <p className='text-white pt-4 text-xl'>Hello, I'm <span className='text-custom-purple  underline'>Bani Aya.</span></p>
         </div>
         
         <div className='flex space-x-2 md:space-x-4 lg:space-x-8 font-preahvihear'>
           <img
             className="rounded-full w-32 h-32 object-cover"
-            src="src\assets\images\profil.jpg"
+            src="\assets\images\profil.jpg"
             alt="Your Name"
           />
   
@@ -23,7 +23,7 @@ export default function About() {
               by their 
               <span className='relative inline-block'>
               <img
-                  src="src\assets\images\Ellipse 5.png"
+                  src="\assets\images\Ellipse 5.png"
                   alt="Code Icon"
                   className="absolute w-40 h-20 -top-2 left-1/2 transform -translate-x-1/2" // Adjusted width for larger size
                 />

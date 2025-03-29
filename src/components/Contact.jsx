@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="flex flex-col items-center">
         <h2 className="text-2xl font-bold text-white mb-2 ">Get In Touch</h2>
         <img 
-          src="src/assets/images/contact-gif.gif" 
+          src="/assets/images/contact-gif.gif" 
           alt="Contact Animation"
           className="w-28 h-auto mb-4" 
         />
@@ -25,7 +25,7 @@ const Contact = () => {
       </div>
       <div className="mt-6 w-full  border-t border-[#866adc] pt-4 flex justify-between p-8 ">
 
-        <p className="text-white">© 2024 All rights reserved.</p>
+        <p className="text-white">© 2025 All rights reserved.</p>
         <a href="https://www.linkedin.com/in/aya-bani-75354a284/" className="hidden md:block text-white">LinkedIn</a>
 
       </div>
