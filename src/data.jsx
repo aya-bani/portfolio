@@ -38,17 +38,41 @@ export const ProjectData = [
     description: 'A full-stack web app using React and Laravel, featuring user authentication, course management, and dynamic theming.',
     defaultImg: 'src/assets/images/intership1.PNG', 
     hoverImg: 'src/assets/images/internship2.PNG',  
+    github:'https://github.com/aya-bani/SkillForge'
   },
   {
-    title: 'HooBank',
-    description: 'HooBank is a modern banking platform designed with a sleek UI, offering seamless financial management and personalized user experiences. It focuses on responsive design and smooth navigation.',
-    defaultImg: 'src/assets/images/back1.PNG', 
-    hoverImg: 'src/assets/images/bank2.PNG',   
+    title: 'E-commerce',
+    description: 'EcomEase is a web application for managing online shopping and transactions, designed using React , Tailwindcss and firebase ',
+    defaultImg: 'src/assets/images/e-commerce-women.PNG', 
+    hoverImg: 'src/assets/images/e-commerce-kids.PNG',   
+    github:'https://github.com/aya-bani/e-commerce'
+
   },
   {
-    title: 'CareCar',
-    description: 'CarCare is a web application for managing vehicle service appointments, designed using React and Bootstrap.',
-    defaultImg: 'src/assets/images/Capture.PNG', 
-    hoverImg: 'src/assets/images/appointment.PNG',   
+    title: 'Issatso Management',
+    description: 'ISSATSoManagement is a web application for managing academic and administrative tasks, designed using React and Tailwindcss while using springboot for the backend .',
+    defaultImg: 'src/assets/images/issat1.PNG', 
+    hoverImg: 'src/assets/images/issat2.PNG',   
+    github:'https://github.com/aya-bani/issatsomanagement_fullapp'
   },
 ];
+
+export const interests = [
+  {
+    image: "src/assets/images/uiuxxxxx.png", 
+    title: "UI/UX design",
+    description: "Designing intuitive and visually appealing user interfaces that enhance user experience, ensuring seamless navigation, accessibility, and engagement."
+  },
+  {
+    image: "src/assets/images/web-dev.png",
+    title: "Web Development",
+    description: "Building responsive, high-performance websites with clean code, seamless functionality, and an intuitive user experience."
+  },
+  {
+    image: "src/assets/images/deep-learning.png",
+    title: "Machine Learning",
+    description: "Building efficient and scalable machine learning models with clean code, seamless integration, and insightful data-driven solutions."
+  }
+  
+];
+

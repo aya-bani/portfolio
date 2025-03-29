@@ -10,23 +10,22 @@ const Technologies = () => {
         In my journey as a full-stack developer, I’ve had the opportunity to work with a diverse range of technologies that empower me to build innovative and efficient solutions.
       </p>
       <div className='flex flex-col'>
-        <div className='relative flex items-center justify-center'>
-          <div className="mb-4 sm:mr-4 sm:mb-0 sm:w-20 sm:h-20 bg-[#251C31] rounded-full flex items-center justify-center">
-            <img src="src/assets/images/figma.png" alt="" className='w-6 h-auto' />
-          </div>
-          <div className="mb-4 sm:mr-4 sm:mb-0 sm:w-20 sm:h-20 bg-[#251C31] rounded-full flex items-center justify-center">
-            <img src="src/assets/images/react.png" alt="" className='w-10 h-auto' />
-          </div>
-          <div className="mb-4 sm:mr-4 sm:mb-0 sm:w-20 sm:h-20 bg-[#251C31] rounded-full flex items-center justify-center">
-            <img src="src/assets/images/laravel.png" alt="" className='w-18 h-auto' />
-          </div>
-          <div className="mb-4 sm:mr-4 sm:mb-0 sm:w-20 sm:h-20 bg-[#251C31] rounded-full flex items-center justify-center">
-            <img src="src/assets/images/jslogo.png" alt="" className='w-12 h-auto' />
-          </div>
-          <div className="mb-4 sm:mr-4 sm:mb-0 sm:w-20 sm:h-20 bg-[#251C31] rounded-full flex items-center justify-center">
-            <img src="src/assets/images/csslogo.png" alt="" className='w-12 h-auto' />
-          </div>
-         
+        <div className='relative flex items-center justify-center flex-wrap gap-4'>
+          {[
+            { src: "src/assets/images/figma.png", size: "w-6" },
+            { src: "src/assets/images/react.png", size: "w-10" },
+            { src: "src/assets/images/laravel.png", size: "w-18" },
+            { src: "src/assets/images/jslogo.png", size: "w-12" },
+            { src: "src/assets/images/csslogo.png", size: "w-12" },
+            { src: "src/assets/images/springboot.png", size: "w-12" }
+          ].map((tech, index) => (
+            <div 
+              key={index} 
+              className="sm:w-20 sm:h-20 bg-[#251C31] rounded-full flex items-center justify-center transition-transform transform hover:scale-110 hover:shadow-lg hover:shadow-purple-500/50"
+            >
+              <img src={tech.src} alt="" className={`${tech.size} h-auto`} />
+            </div>
+          ))}
         </div>
       </div>
     </section>

@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className='flex flex-col items-center justify-center h-screen bg-[#11071F] pt-20'  > {/* Changed to 'pt-20' to add padding to the top */}
+    <div className='flex flex-col items-center justify-center h-screen bg-[#11071F] pt-20 m-6 '  > {/* Changed to 'pt-20' to add padding to the top */}
        <div>
-        <div className='flex '>
+        <div className='flex mt-8 '>
         <img src="src\assets\images\Arrow.png" alt="" className=' ml-10' />
-        <p className='text-white pt-4'>Hello, I'm <span className='text-custom-purple  underline'>Bani Aya.</span></p>
+        <p className='text-white pt-4 text-xl'>Hello, I'm <span className='text-custom-purple  underline'>Bani Aya.</span></p>
         </div>
         
         <div className='flex space-x-2 md:space-x-4 lg:space-x-8 font-preahvihear'>
@@ -17,7 +17,7 @@ export default function About() {
           />
   
           <div>
-            <p className='text-white font-preahvihear text-m'>A Web Developer</p>
+            <p className='text-white font-preahvihear text-xl'>A Web Developer</p>
             <p className='text-white font-preahvihear text-5xl relative'>
               who judges sites<br />
               by their 
@@ -31,17 +31,25 @@ export default function About() {
               </span>
               ...
             </p>
-            <p className='text-white font-preahvihear text-xs'>Because every pixel matters, and behind every stunning UI lies a masterpiece of logic.</p>
+            <p className='text-white font-preahvihear text-xl mt-8'>Because every pixel matters, and behind every stunning UI lies a masterpiece of logic.</p>
           </div>
         </div>
         </div>
-      <div className='flex flex-col text-white mt-24 w-full max-w-lg mx-auto'>
-        <p className='text-4xl font-bold mb-4 font-preahvihear'>I'm a Software Engineering Student.</p>
-        <p className='text-s mb-2 text-[#763CAC] font-preahvihear'>Currently, I'm a Software Engineering student at ISSATSO.</p>
-        <p className='text-m mt-4 font-preahvihear'>
-          I am a passionate Software Engineering student with a focus on web development and UI/UX design, specializing in React and Laravel. With experience in creating responsive, visually appealing applications, I combine efficient coding practices with user-centered design principles. Dedicated to refining my skills, I aim to craft seamless digital experiences and contribute to cutting-edge projects.
-        </p>
-      </div>
+        <div className="flex flex-col text-white mt-24 w-full max-w-lg mx-auto">
+            <p className="text-3xl font-bold mb-4 font-preahvihear leading-tight">
+              Software Engineering Student & Web Developer
+            </p>
+
+            <p className="text-lg text-[#763CAC] font-preahvihear">
+              Studying Software Engineering at ISSATSO <br/> specializing in Web Development and UI/UX Design.
+            </p>
+
+            <p className="text-base mt-4 font-preahvihear leading-relaxed">
+              I am a dedicated Software Engineering student with a strong passion for building scalable and user-centric web applications.  
+              With expertise in React , I focus on developing clean, efficient, and responsive solutions that enhance user experience.  
+            </p>
+        </div>
+
     </div>
   );
 }
